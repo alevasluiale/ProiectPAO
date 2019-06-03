@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Configuration>
+   <Database>
+       <ServerUrl>localhost:3306/ProiectPao</ServerUrl>
+       <Username>marius</Username>
+       <Password>marius123</Password>
+   </Database>
+</Configuration>

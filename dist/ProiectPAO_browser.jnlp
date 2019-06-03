@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ProiectPAO_browser.jnlp">
+  <information>
+    <title>ProiectPAO</title>
+    <vendor>marius</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ProiectPAO.jar" size="62070" download="eager" />
+    <jar href="lib/DateChooser.jar" size="514658" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.47-bin.jar" size="1007505" download="eager" />
+    <jar href="lib/opencsv-3.9.jar" size="80720" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="classes.Main"  name="ProiectPAO" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
